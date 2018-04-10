@@ -58,11 +58,11 @@ namespace TheBoredProfessor
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "679005383725-p1ksjj71gqlcc00urplb0o5qu4ql2r8k.apps.googleusercontent.com",
+                ClientSecret = "IPFXeHMYh_fdUaKCCq_syBNi"
+            });
         }
     }
 }
